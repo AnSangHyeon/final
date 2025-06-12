@@ -12,7 +12,7 @@ let Final = () => {
       }}
     >
       {/* 화면크기가 줄어도 한줄로 나오기 위해 flex설정(혹시 몰라서 했습니다) */}
-      <div className="flexBox">
+      <div className="flexBox ContentsWrap">
         {/* 사용자가 입력한 색 출력 */}
         <span>Background Color : {color}</span>&nbsp;
 

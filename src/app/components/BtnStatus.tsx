@@ -1,7 +1,6 @@
 'use client';
 
 import { createContext, useState, useContext, useEffect } from "react";
-// import { ThemeContext } from "./theme-provider";
 
 export const ThemeContext = createContext<{
   theme: 'on' | 'off'
@@ -16,7 +15,6 @@ export default function BtnStatus({
 } : {
   children: React.ReactNode
 }) {
-  // const { theme, toggleTheme } = useContext(ThemeContext);
   const [theme, setTheme] = useState<'on' | 'off'>('off')
 
   useEffect(() => {

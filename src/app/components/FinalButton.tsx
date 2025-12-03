@@ -22,7 +22,7 @@ export default function FinalButton() {
   return (
     <>
       <button onClick={() => setNum(num + 1)} className={`${geist.className} btnBackground`}>{num}</button><br />
-      <BtnStatus />
+      {/* <BtnStatus /> */}
     </>
   );
 }
